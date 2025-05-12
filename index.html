@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Accident Detection System</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">ADS</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#features">Features</a>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="#demo">Demo</a></li>
+            <li class="nav-item"><a class="nav-link" href="#team">Team</a></li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header
+      style="background-image: url('assets/hero-image.jpg')"
+      class="bg-primary text-white text-center py-5"
+    >
+      <div class="container">
+        <h1 class="display-4">Accident Detection System</h1>
+        <p class="lead">Smart Monitoring for Safer Roads</p>
+        <a href="#about" class="btn btn-light btn-lg mt-3">Learn More</a>
+      </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="py-5">
+      <div class="container">
+        <h2 class="mb-4">About the Device</h2>
+        <p>
+          Our Accident Detection System (ADS) is designed to detect vehicle
+          accidents in real-time using smart sensors, instantly sending SMS
+          alerts with GPS location to emergency contacts. It enhances road
+          safety and emergency response times.
+        </p>
+      </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="bg-light py-5">
+      <div class="container">
+        <h2 class="mb-4">Features</h2>
+        <div class="row">
+          <div class="col-md-6">
+            <ul>
+              <li>🚗 Real-time accident detection</li>
+              <li>📍 GPS tracking and alerting</li>
+              <li>📨 Automatic SMS to emergency contacts</li>
+              <li>🔋 Battery powered & compact design</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Device Display Section -->
+    <section id="device" class="py-5 text-center">
+      <div class="container">
+        <h2 class="mb-4">Our Device</h2>
+        <p class="mb-4">
+          This compact and powerful hardware is the core of our Accident
+          Detection System. It includes a GPS module, GSM module, and various
+          sensors to detect collisions in real-time.
+        </p>
+        <img
+          src="assets/device.jpg"
+          alt="Accident Detection Device"
+          class="img-fluid device-img mb-3"
+        />
+        <h4 class="text-primary fw-bold">$149.99</h4>
+        <p class="text-muted">
+          *Price includes all components and setup guide.
+        </p>
+      </div>
+    </section>
+
+    <!-- Demo Section -->
+    <section id="demo" class="py-5">
+      <div class="container">
+        <h2 class="mb-4">Device Demo</h2>
+        <p>Watch our system in action:</p>
+        <video controls width="100%">
+          <source src="assets/demo.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+      </div>
+    </section>
+
+    <!-- Team Section -->
+    <section id="team" class="bg-light py-5">
+      <div class="container">
+        <h2 class="mb-4">Our Team</h2>
+        <div class="row">
+          <div class="col-md-3 text-center">
+            <img
+              src="assets/member1.jpg"
+              class="rounded-circle img-fluid mb-2"
+              alt="Member 1"
+            />
+            <h5>Jane Doe</h5>
+            <p>Hardware Lead</p>
+          </div>
+          <div class="col-md-3 text-center">
+            <img
+              src="assets/member2.jpg"
+              class="rounded-circle img-fluid mb-2"
+              alt="Member 2"
+            />
+            <h5>John Smith</h5>
+            <p>Software Engineer</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact/Footer Section -->
+    <footer id="contact" class="bg-dark text-white text-center py-4">
+      <div class="container">
+        <p>Contact us: your.email@example.com</p>
+        <p>&copy; 2025 Accident Detection System</p>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

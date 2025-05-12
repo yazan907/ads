@@ -1,0 +1,104 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body & Background */
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Navbar */
+.navbar {
+  padding: 15px 0;
+}
+
+/* Hero Section */
+header {
+  background: url("assets/hero-image.jpg") no-repeat center center/cover;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* About Section */
+#about {
+  background-color: #f8f9fa;
+  padding: 50px 0;
+}
+
+/* Features Section */
+#features {
+  padding: 50px 0;
+}
+
+#features ul {
+  list-style-type: none;
+}
+
+#features li {
+  font-size: 1.2rem;
+  margin: 10px 0;
+}
+
+/* Team Section */
+#team {
+  background-color: #f8f9fa;
+  padding: 50px 0;
+}
+
+#team .col-md-3 {
+  text-align: center;
+}
+
+#team img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+/* Footer */
+footer {
+  background-color: #343a40;
+  color: white;
+  padding: 20px 0;
+}
+
+/* Responsiveness */
+@media (max-width: 768px) {
+  .navbar-nav {
+    text-align: center;
+  }
+
+  #team .col-md-3 {
+    margin-bottom: 20px;
+  }
+}
+/* Device Section */
+#device {
+  background-color: #ffffff;
+}
+
+.device-img {
+  max-width: 400px;
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.device-img:hover {
+  transform: scale(1.05);
+}
+.device-img {
+  max-width: 400px;
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.device-img:hover {
+  transform: scale(1.05);
+}
